@@ -14,7 +14,7 @@ public class SqlTest_1{
     try {
       Connection connect = DriverManager.getConnection(
           "jdbc:mysql://192.168.0.108:3306/test","root","123456");
-           //连接URL为   jdbc:mysql//服务器地址/数据库名  ，后面的2个参数分别是登陆用户名和密码
+           //连接UR为   jdbc:mysql//服务器地址/数据库名  ，后面的2个参数分别是登陆用户名和密码
 
       System.out.println("Success connect Mysql server!");
       Statement stmt = connect.createStatement();
