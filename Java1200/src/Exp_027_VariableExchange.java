@@ -9,7 +9,7 @@ public class Exp_027_VariableExchange {
 		long B = scan.nextLong();
 		A = A^B;
 		B = B^A;
-		A = A^B;
+		A = A^B;//´ú»»
 		System.out.println("´ú»»ºóA="+A+" B="+B);
 	}
 }
