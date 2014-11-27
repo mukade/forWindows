@@ -7,22 +7,22 @@ public class Exp_022_TypeConversion {
         long l = 400000L;
         float f = 3.14159F;
         double d = 54.523;
-        // ä½ç±»å‹å‘é«˜ç±»å‹è‡ªåŠ¨è½¬æ¢la
-        System.out.println("ç´¯åŠ bypeç­‰äºï¼š" + b);
-        System.out.println("ç´¯åŠ charç­‰äºï¼š" + (b + c));
-        System.out.println("ç´¯åŠ shortç­‰äºï¼š" + (b + c + s));
-        System.out.println("ç´¯åŠ intç­‰äºï¼š" + (b + c + s + i));
-        System.out.println("ç´¯åŠ long"+l+"ç­‰äºï¼š" + (b + c + s + i + l));
-        System.out.println("ç´¯åŠ float"+f+"ç­‰äºï¼š" + (b + c + s + i + l + f));
-        System.out.println("ç´¯åŠ double"+d+"ç­‰äºï¼š" + (b + c + s + i + l + f + d));
-        // é«˜ç±»å‹åˆ°ä½ç±»å‹çš„å¼ºåˆ¶è½¬æ¢
-        System.out.println("æŠŠlongå¼ºåˆ¶ç±»å‹è½¬æ¢ä¸ºintï¼š" + (int) l);
-        // é«˜ç±»å‹åˆ°ä½ç±»å‹è½¬æ¢ä¼šä¸¢å¤±æ•°æ®
-        System.out.println("æŠŠlongå¼ºåˆ¶ç±»å‹è½¬æ¢ä¸ºshortï¼š" + (short) l);
-        // å®æ•°åˆ°æ•´æ•°è½¬æ¢å°†èˆå¼ƒå°æ•°éƒ¨åˆ†
-        System.out.println("æŠŠdoubleå¼ºåˆ¶ç±»å‹è½¬æ¢ä¸ºintï¼š" + (int) d);
-        // æ•´æ•°åˆ°å­—ç¬¦ç±»å‹çš„è½¬æ¢å°†è·å–å¯¹åº”ç¼–ç çš„å­—ç¬¦
-        System.out.println("æŠŠshortå¼ºåˆ¶ç±»å‹è½¬æ¢ä¸ºcharï¼š" + (int)(char) s);
+        // µÍÀàĞÍÏò¸ßÀàĞÍ×Ô¶¯×ª»»
+        System.out.println("ÀÛ¼ÓbypeµÈÓÚ£º" + b);
+        System.out.println("ÀÛ¼ÓcharµÈÓÚ£º" + (b + c));
+        System.out.println("ÀÛ¼ÓshortµÈÓÚ£º" + (b + c + s));
+        System.out.println("ÀÛ¼ÓintµÈÓÚ£º" + (b + c + s + i));
+        System.out.println("ÀÛ¼Ólong"+l+"µÈÓÚ£º" + (b + c + s + i + l));
+        System.out.println("ÀÛ¼Ófloat"+f+"µÈÓÚ£º" + (b + c + s + i + l + f));
+        System.out.println("ÀÛ¼Ódouble"+d+"µÈÓÚ£º" + (b + c + s + i + l + f + d));
+        // ¸ßÀàĞÍµ½µÍÀàĞÍµÄÇ¿ÖÆ×ª»»
+        System.out.println("°ÑlongÇ¿ÖÆÀàĞÍ×ª»»Îªint£º" + (int) l);
+        // ¸ßÀàĞÍµ½µÍÀàĞÍ×ª»»»á¶ªÊ§Êı¾İ
+        System.out.println("°ÑlongÇ¿ÖÆÀàĞÍ×ª»»Îªshort£º" + (short) l);
+        // ÊµÊıµ½ÕûÊı×ª»»½«ÉáÆúĞ¡Êı²¿·Ö
+        System.out.println("°ÑdoubleÇ¿ÖÆÀàĞÍ×ª»»Îªint£º" + (int) d);
+        // ÕûÊıµ½×Ö·ûÀàĞÍµÄ×ª»»½«»ñÈ¡¶ÔÓ¦±àÂëµÄ×Ö·û
+        System.out.println("°ÑshortÇ¿ÖÆÀàĞÍ×ª»»Îªchar£º" + (int)(char) s);
         System.out.println(((int)2-1.1));
     }
 }
