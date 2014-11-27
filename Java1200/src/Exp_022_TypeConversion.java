@@ -8,7 +8,7 @@ public class Exp_022_TypeConversion {
         float f = 3.14159F;
         double d = 54.523;
         // 低类型向高类型自动转换
-        System.out.println("累加bype等于：" + b);
+        System.out.println("累加byte等于：" + b);
         System.out.println("累加char等于：" + (b + c));
         System.out.println("累加short等于：" + (b + c + s));
         System.out.println("累加int等于：" + (b + c + s + i));
