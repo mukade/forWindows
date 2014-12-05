@@ -1,7 +1,4 @@
-import java.awt.RenderingHints.Key;
 import java.util.Scanner;
-
-import org.omg.CORBA.Any;
 
 public class exp_028_LeapYear {
 
@@ -18,10 +15,9 @@ public class exp_028_LeapYear {
 			if(year%4==0&&year%100!=0&&year%400==0){
 				System.out.println(year+"is leap year");
 			}else{
-				System.out.println(year+"is not leap year");
+				System.out.println(year+" is not leap year");
 			}
-			System.out.println("press any key to continue or press bye to quit");System.out.println();
-			str = scan.nextLine();System.out.print("hi");
+			System.out.println("press any key to continue or press bye to quit");
 			if (str == "bye")break;
 		}
 	}
