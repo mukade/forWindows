@@ -15,6 +15,7 @@ public class FinalVariableTest {
 	public FinalVariableTest(){
 //		str = "java";
 		c = 5;
+		ch = 'a';
 	}
 	public void changeFinal(){
 //		ch = 'a';
