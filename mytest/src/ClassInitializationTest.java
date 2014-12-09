@@ -42,13 +42,15 @@ class Leaf extends Mid
 		System.out.println("Leaf 的静态初始化块");
 	}
 	{
+		
 		System.out.println("Leaf 的普通初始化块");
 		System.out.println("2");
+		
 	}
 	public Leaf()
 	{
 		//通过surper 调用父类中有一个字符串参数的构造器
-		super("Struts 2权威指南");
+		//super("Struts 2权威指南");
 		System.out.println("3");
 		System.out.println("执行Leaf的构造器");
 		System.out.println("4");
@@ -59,7 +61,7 @@ public class ClassInitializationTest
 {
 	public static void main(String[] args)
 	{
-		new Leaf();
-//		new Leaf();
+		Leaf leaf = new Leaf();
+		//new Leaf();
 	}
 }
