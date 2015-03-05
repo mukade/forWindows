@@ -7,13 +7,13 @@ import java.io.PrintStream;
 
 public class AutoCloseTest {
 	public static void main(String args[]) throws Exception{
-		try(	//
-				BufferedReader br=new BufferedReader(new FileReader("AutoCloseTest.java"));
-				PrintStream ps=new PrintStream(new FileOutputStream("a.txt"));
-				//声明、初始化两个可关闭资源
-			){
-			System.out.println(br.readLine());
-			ps.println("asdffdsa");
-		}
+//		try(	//
+//				BufferedReader br=new BufferedReader(new FileReader("AutoCloseTest.java"));
+//				PrintStream ps=new PrintStream(new FileOutputStream("a.txt"));
+//				//声明、初始化两个可关闭资源
+//			){
+//			System.out.println(br.readLine());
+//			ps.println("asdffdsa");
+//		}
 	}
 }
