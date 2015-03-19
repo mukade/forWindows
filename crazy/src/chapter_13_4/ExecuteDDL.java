@@ -35,7 +35,7 @@ public class ExecuteDDL {
 		ed.initParam("mysql.ini");
 		ed.createTable("create table jdbc_test"+
 					   "(jdbc_id int auto_increment primary key,"+
-					   "jdbc_name varchar(255),"+
+					   "jdbc_name varchar(254),"+
 					   "jdbc_desc text);");
 	}
 }
